@@ -8,7 +8,7 @@ cipher = {
     "y" : "d", "z" : "e"
 }
 
-plaintext = input("Please enter a sentence to be encrypted:")
+plaintext = input("Please enter a sentence: ")
 plaintext = plaintext.lower()
 
 result = ''
@@ -18,4 +18,4 @@ for letter in plaintext:
     else:
         result = result + letter
         
-print("Your encrypted sentence is:", result)
+print("The encrypted sentence is:", result)
